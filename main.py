@@ -1,6 +1,6 @@
-from fastapi import FastAPI, Query
-from pydantic import BaseModel
-import snscrape.modules.twitter as sntwitter
+from fastapi import FastAPI, Query # type: ignore
+from pydantic import BaseModel # type: ignore
+import snscrape.modules.twitter as sntwitter # type: ignore
 from typing import List
 
 app = FastAPI()
